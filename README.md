@@ -1,25 +1,64 @@
 # Healthcare-Prediction-App-using-Machine-Learning
-A Streamlit-based ML system that predicts diseases from symptoms using Random Forest and provides descriptions and precautions using multiple medical datasets.
-This project is a Healthcare Assistance Web Application built using Machine Learning and Streamlit.
-It predicts a disease based on the symptoms entered by the user and displays the disease description, precautionary steps, and severity using four integrated datasets.
+Healthcare Assistance using Machine Learning
 
-A Random Forest model trained on a labeled medical dataset is used to classify the disease.
-The application follows a clean, modular architecture with separate folders for models, data, utilities, and UI, making it easy to extend and deploy.
+A Streamlit-based ML web application that predicts diseases from symptoms and displays detailed descriptions and precautions using four integrated medical datasets.
 
-KEY FEATURES
+🚀 Project Overview
 
-Symptom-based disease prediction using a trained Random Forest model
+This project is a Healthcare Assistance System built using Machine Learning and Streamlit.
+The system predicts a disease based on user-input symptoms using a trained Random Forest classifier.
+It also displays the disease description, severity, and precautionary steps by integrating four structured medical datasets.
 
-Uses 4 medical datasets (symptoms, description, precaution, severity)
+The application follows a modular, scalable structure and is optimized for deployment on GitHub, Streamlit Cloud, or any hosting platform.
 
-Streamlit UI for interactive user experience
+⭐ Features
 
-Shows detailed disease description + recommended precaution steps
+✔ Predict disease from user-input symptoms
 
-Modular folder structure (app.py, models/, data/, utils/)
+✔ Uses 4 medical datasets:
 
-Production-ready and GitHub-ready architecture
+disease dataset
 
-TECH STACK
+symptom descriptions
 
-Python, Streamlit, Pandas, NumPy, Scikit-learn (Random Forest)
+precaution dataset
+
+severity mapping
+
+✔ Random Forest ML model trained for multi-class classification
+
+✔ Displays detailed disease information (description + precautions)
+
+✔ Simple and attractive Streamlit UI
+
+✔ Modular, production-friendly folder structure
+
+✔ Fast, accurate, and lightweight
+
+🧠 Machine Learning Model
+
+Algorithm: Random Forest Classifier
+
+Input: Symptom vector
+
+Output: Predicted disease name
+
+Model exported as: models/random_forest_model.pkl
+
+Training script:
+
+train_model.py
+
+🔧 Technologies Used
+
+Python
+
+Streamlit
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Random Forest
